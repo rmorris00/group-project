@@ -1,0 +1,21 @@
+.header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+/*nav {
+display: flex;
+}*/
+
+.nav {
+    flex: 2;
+    padding-left: 150px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  float: right;
+  margin-right: 30px;
+}
