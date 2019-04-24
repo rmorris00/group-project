@@ -1,0 +1,80 @@
+.container-1 {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.gallery-container {
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 500px;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.image-1 {
+
+    background-image: url("https://timedotcom.files.wordpress.com/2014/07/zebra-new-red-meat.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1 30%;
+    width: 30%;
+    height: 30%; 
+    margin: 5px;  
+}
+
+.image-2 {
+    background-image: url("https://www.thesprucepets.com/thmb/ngEcQBHHXcHYXh8PPTvGttRxYN0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/high-angle-view-of-chimpanzee-in-forest-769784687-5b1e76d63de4230037ce6f9d.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 2 30%;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+}
+
+.image-3 {
+    background-image: url("https://www.gannett-cdn.com/presto/2018/10/19/PIND/17898f77-71af-484e-b39f-df4c132c47fd-Nyack.jpg?width=534&height=712&fit=bounds&auto=webp");
+    background-size: cover;
+    background-position: center;
+    flex: 3 30%;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+
+}
+
+.image-4 {
+    background-image: url("https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwMC8zNDkvb3JpZ2luYWwvc2liZXJpYW4tdGlnZXIuanBn");
+    background-size: cover;
+    background-position: center;
+    flex: 4 30%;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+
+}
+
+.image-5 {
+    background-image: url("https://a-z-animals.com/media/animals/images/470x370/giraffe_10.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 5 30%;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+
+}
+
+.image-6 {
+    background-image: url("http://blogs.discovermagazine.com/inkfish/files/2017/09/8696883646_cc332cc707_z.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 6 30%;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+}
