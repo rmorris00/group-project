@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
 </head>
 
 <body>
@@ -17,15 +18,15 @@
         </nav>
     </header>
 
-    <div class="float-right">
-        <form action="" method="POST">
+
+        <form action="" method="POST" class="float-right">
             <input type="text" class="img-form" name="img-name" id="img-name" placeholder="Image Name" />
             <input type="text" class="img-form" name="img-url" id="img-url" placeholder="Image URL" />
-            <input type="radio" class="radio" name="img-type" value="png" /> <span class="img-type">PNG</span><br>
-            <input type="radio" class="radio" name="img-type" value="jpeg" /> <span class="img-type">JPEG</span>
+            <div class="img-type"><input type="radio" class="radio" name="img-type" value="png" id="radio1" />PNG</div>
+            <div class="img-type"><input type="radio" class="radio" name="img-type" value="jpeg" />JPEG</div>
             <button type="submit" class="img-form" id="submit">Upload</button>
         </form>
-    </div>
+
 
 
     <div class="container-1">
