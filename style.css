@@ -17,5 +17,13 @@ button {
   background-color: red;
   color: white;
   float: right;
-  margin-right: 30px;
+  margin-right: 60px;
+  padding: 14px 40px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+a {
+  color: red;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
