@@ -25,8 +25,8 @@ button {
 a {
   color: red;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body {
     background-color: #e7e9c1;
 }
@@ -51,11 +51,11 @@ body {
 
 #img-name {
     margin-top: 50px;
-    color: #d99fa0;
+    color: red;
 }
 
 #img-url {
-    color: #d99fa0;
+    color: red;
 }
 
 .radio {
@@ -65,15 +65,16 @@ body {
 
 .img-type {
     font-size: 20px;
-    color: #d99fa0;
+    color: red;
 }
 
 #submit {
     width: 100%;
+    color: #313131
 }
 
 #submit:hover {
-    background-color: #d99fa0;
+    background-color: white;
 }
 
 
