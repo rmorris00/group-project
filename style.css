@@ -1,3 +1,53 @@
+
+body {
+    background-color: #e7e9c1;
+}
+
+.float-right {
+    width: 50%;
+    float: right;
+    margin: 50px;
+}
+
+.img-form {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 15px;
+    border: #313131 10px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#img-name {
+    margin-top: 50px;
+    color: #d99fa0;
+}
+
+#img-url {
+    color: #d99fa0;
+}
+
+.radio {
+    margin-left: 50%;
+    margin-bottom: 15px;
+}
+
+.img-type {
+    font-size: 20px;
+    color: #d99fa0;
+}
+
+#submit {
+    width: 100%;
+}
+
+#submit:hover {
+    background-color: #d99fa0;
+}
+
 .container-1 {
     width: 50%;
     height: 500px;
@@ -78,3 +128,4 @@
     height: 30%;
     margin: 5px;
 }
+
